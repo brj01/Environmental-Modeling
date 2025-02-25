@@ -1,0 +1,3460 @@
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/DataCleaning.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parameters_i.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 83: ./para_files/parameters.txt: No such file or directory
+mv: cannot stat './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+1 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+2 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+3 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+4 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+5 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+6 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+7 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+8 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+9 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+10 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+11 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+12 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+13 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+14 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+15 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+16 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+17 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+18 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+19 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+20 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+21 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+22 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+23 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+24 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+25 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+26 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+27 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+28 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+29 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+30 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+31 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+32 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+33 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+34 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+35 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+36 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+37 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+38 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+39 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+40 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+41 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+42 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+43 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+44 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+45 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+46 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+47 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+48 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+49 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+50 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+51 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+52 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+53 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+54 iterations done
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 23, in <module>
+    from . import multiarray
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/multiarray.py", line 10, in <module>
+    from . import overrides
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/overrides.py", line 7, in <module>
+    from numpy._core._multiarray_umath import (
+ImportError: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 114, in <module>
+    from numpy.__config__ import show_config
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy._core._multiarray_umath import (
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/_core/__init__.py", line 49, in <module>
+    raise ImportError(msg)
+ImportError: 
+
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+
+Importing the numpy C-extensions failed. This error can happen for
+many reasons, often due to issues with your setup or how NumPy was
+installed.
+
+We have compiled some common reasons and troubleshooting tips at:
+
+    https://numpy.org/devdocs/user/troubleshooting-importerror.html
+
+Please note and check the following:
+
+  * The Python version is: Python3.12 from "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/bin/python3"
+  * The NumPy version is: "2.2.2"
+
+and make sure that they are the versions you expect.
+Please carefully study the documentation linked above for further help.
+
+Original error was: libscipy_openblas64_-6bb31eeb.so: cannot open shared object file: No such file or directory
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/generate_parametersMCMC.py", line 1, in <module>
+    import numpy as np
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/biome_env/lib/python3.12/site-packages/numpy/__init__.py", line 119, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+./runMCMC.x: line 115: ./para_files/parameters.txt: No such file or directory
+rm: cannot remove './output/simulation*': No such file or directory
+rm: cannot remove './para_files/simulation*': No such file or directory
+rm: cannot remove './para_files/parameters.txt': No such file or directory
+rm: cannot remove './simulation*': No such file or directory
+Traceback (most recent call last):
+  File "/mnt/c/Users/lenovo/Desktop/Research/BiomeE_DA/./Auxiliary/GR_convergence.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+55 iterations done
